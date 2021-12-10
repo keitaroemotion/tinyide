@@ -7,4 +7,4 @@ fi
 
 files=`git diff --name-only $target_branch`
 
-./ide.py $files
+ide.py $files
